@@ -1,10 +1,11 @@
 import React from "react";
 import Lottie from "lottie-react";
+import resturent from "../assets/images/resturent.png"
 
 const Projects = () => {
   const projectData = [
     {
-      title: "Project Alpha",
+      title: "Home Rental App",
       description: [
         "Full-stack web application.",
         "Built with React, Node.js, and MongoDB.",
@@ -12,22 +13,22 @@ const Projects = () => {
         "Implemented RESTful APIs for data handling.",
         "Deployed on AWS EC2 instance.",
       ],
-      imageUrl: "https://eat-easy-9ehc.onrender.com/img/Samosa.webp", // Placeholder image URL
+      imageUrl: resturent, // Placeholder image URL
       githubLink: "#",
-      liveLink: "#",
+      liveLink: "https://dularibhawan.store",
     },
     {
-      title: "Project Beta",
+      title: "Eat Easy",
       description: [
-        "E-commerce platform with secure payment system.",
-        "Tech stack: React, Redux, Express, MongoDB.",
-        "Integrated Stripe API for payments.",
-        "User authentication using JWT and bcrypt.",
-        "Real-time order tracking feature.",
+        "Full-stack web application.",
+        "Built with Ejs, Node.js, and MongoDB.",
+        "Responsive design with Tailwind CSS.",
+        "Implemented RESTful APIs for data handling.",
+        "Deployed on render.",
       ],
-      imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIOkzUOAR6IcznvOqngdw6yy8EnkXdWg5KlA&s", // Placeholder image URL
-      githubLink: "#",
-      liveLink: "#",
+      imageUrl: resturent, // Placeholder image URL
+      githubLink: "https://github.com/erankitkr011/Eat_Easy",
+      liveLink: "https://eat-easy-9ehc.onrender.com",
     },
     {
       title: "Project Beta",
